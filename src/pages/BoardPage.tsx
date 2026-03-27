@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Column, Priority, Tag, Task } from '../types';
 import { COLUMNS } from '../utils/constants';
 import KanbanColumn from '../components/KanbanColumn';

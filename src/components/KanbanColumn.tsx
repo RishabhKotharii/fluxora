@@ -1,5 +1,4 @@
-import React from 'react';
-import type { Column, Priority, Tag, Task } from '../types';
+import type { Column, Task } from '../types';
 import { COLUMN_COLORS } from '../utils/constants';
 import TaskCard from './TaskCard';
 

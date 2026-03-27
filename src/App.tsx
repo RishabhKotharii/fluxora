@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Task, Priority, Tag } from './types';
 import { useTasks } from './hooks/useTasks';
 import { useTheme } from './hooks/useTheme';

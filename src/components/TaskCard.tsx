@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Task } from '../types';
 import { PRIORITY_COLORS, TAG_COLORS, COLUMNS } from '../utils/constants';
 import { formatDate } from '../utils/storage';
