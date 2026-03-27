@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="FlowTrack — a modern Jira-inspired task workflow manager with Kanban board, filters and dashboard." />
+    <title>FlowTrack — Task Workflow Manager</title>
+    <style>
+      :root[data-theme="dark"] {
+        --bg: #0e0f14;
+        --surface: #13151c;
+        --card: #1a1c25;
+        --border: #252836;
+        --text: #e8eaf0;
+        --muted: #6b7280;
+        --hover: #252836;
+        --input: #13151c;
+      }
+      :root[data-theme="light"] {
+        --bg: #f4f5f9;
+        --surface: #ffffff;
+        --card: #ffffff;
+        --border: #e5e7eb;
+        --text: #111827;
+        --muted: #6b7280;
+        --hover: #f3f4f6;
+        --input: #f9fafb;
+      }
+      /* default dark on first load */
+      :root {
+        --bg: #0e0f14;
+        --surface: #13151c;
+        --card: #1a1c25;
+        --border: #252836;
+        --text: #e8eaf0;
+        --muted: #6b7280;
+        --hover: #252836;
+        --input: #13151c;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
