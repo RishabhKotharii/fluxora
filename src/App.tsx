@@ -49,7 +49,7 @@ export default function App() {
   };
 
   return (
-    <div data-theme={theme} className="min-h-screen bg-[var(--bg)] transition-colors duration-300">
+    <div data-theme={theme} className="min-h-screen bg-(--bg) transition-colors duration-300">
       <Navbar
         theme={theme}
         onToggle={toggle}
@@ -58,7 +58,7 @@ export default function App() {
         onTabChange={setActiveTab}
       />
 
-      <main className="max-w-screen-xl mx-auto px-4 sm:px-6 py-6">
+      <main className="max-w-7xl mx-auto px-4 sm:px-6 py-6">
         {activeTab === 'board' ? (
           <BoardPage
             getColumnTasks={getColumnTasks}
